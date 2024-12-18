@@ -1,5 +1,40 @@
-template-repository (1.0-1) unstable; urgency=medium
+mvdsv (1.00-0deepin1) unstable; urgency=medium
 
-  * Initial release
+  * Update to 1.00
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  -- Alphagocc <alphagocc@163.com>  Wed, 18 Dec 2024 00:19:20 +0800
+
+mvdsv (0.35-6) unstable; urgency=high
+
+  * Fix build failure on big endian systems
+
+ -- Lee Garrett <debian@rocketjump.eu>  Sat, 28 Jan 2023 14:50:04 +0100
+
+mvdsv (0.35-5) unstable; urgency=high
+
+  * mvdsv.install: Use wildcard instead of variable.
+    This hopefully fixes build failure on i386.
+
+ -- Lee Garrett <debian@rocketjump.eu>  Fri, 27 Jan 2023 16:15:12 +0100
+
+mvdsv (0.35-4) unstable; urgency=high
+
+  * Fix FTBFS on other archs
+  * Enable curl support
+  * Add man page for mvdsv command
+  * Bump Standards-Version (no changes needed)
+  * Update watch file
+
+ -- Lee Garrett <debian@rocketjump.eu>  Fri, 27 Jan 2023 13:31:23 +0100
+
+mvdsv (0.35-3) unstable; urgency=high
+
+  * Build only for amd64 for now (Closes: #1021797)
+
+ -- Lee Garrett <debian@rocketjump.eu>  Mon, 02 Jan 2023 20:08:31 +0100
+
+mvdsv (0.35-2) unstable; urgency=medium
+
+  * Initial release (Closes: #862954)
+
+ -- Lee Garrett <debian@rocketjump.eu>  Fri, 02 Sep 2022 15:29:00 +0200
